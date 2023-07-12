@@ -1,0 +1,10 @@
+{% extends 'home.html' %}
+{% block content %}
+
+<h1>Hello Jinja2</h1>
+
+{% for todo in todos %}
+    {{ todo['title'] }} <br>
+{% endfor %}
+
+{% endblock %}
